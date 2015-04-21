@@ -14,10 +14,20 @@
     "of",
     "code"
   ],
+  "scripts": {
+    "test": "node test.js"
+  },
   "author": "Marc",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marc1404/LinesOfCode/issues"
   },
-  "homepage": "https://github.com/marc1404/LinesOfCode"
+  "homepage": "https://github.com/marc1404/LinesOfCode",
+  "dependencies": {
+    "request": "*",
+    "async": "*"
+  },
+  "devDependencies": {
+    "dotenv": "*"
+  }
 }
